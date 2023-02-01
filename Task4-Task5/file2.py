@@ -34,6 +34,8 @@ for i in range(len(students)):
     
 print(dictionary)
 
+'''3.'''
+
 
 '''4. Write a program in Python using generators to reverse the string.'''
 
