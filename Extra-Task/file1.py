@@ -53,7 +53,21 @@ string = "hello my name is abcde"
 for word in string:
     if (len(word)%2==0):
         print(word)
+##7.Write a program in python to print the pair of numbers whose sum is equal to the result
+##number that is let's say 8.
 
+array=[1,2,3,4,5,6,7,8,9,-1]
+sum = 8
+for i in range(0,len(array)):
+        for j in range(i, len(array)):
+            if (array[i] + array[j]) == sum:
+                print(array[i], array[j])
+## sample output is 
+# 7 1
+# 5 3
+# 6 2
+# 4 4
+# 9 -1
 
 ##8.Create two lists such as even_list and odd_list
 even_list = []

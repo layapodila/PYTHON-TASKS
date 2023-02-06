@@ -141,7 +141,17 @@ def foo():
         print("This is finally block.")
 foo()
 
-'''13.'''
+'''13.Flatten the list [1,2,3,4,5,6,7] into 1234567 using reduce().'''
+
+list1 = [1,2,3,4,5,6,7]
+
+from functools import reduce
+
+list2 = reduce(lambda x,y: 10*x+y, list1)
+
+print(list2)
+
+
 '''14.'''
 
 '''15. Write a program in Python to multiply the elements of a list by itself using a traditional function
