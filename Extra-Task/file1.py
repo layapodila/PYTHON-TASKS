@@ -93,12 +93,13 @@ print(s1.count('c'))       # occurrences of c
 
 ##10. Generate and print another tuple whose values are even numbers in the given tuple
 
-tup = (1,2,3,4,5,6,7,8,9,10)
+tp = (1,2,3,4,5,6,7,8,9,10)
 li = list()
+for i in tp:
+	if tp[i-1]%2 == 0:
+		li.append(tp[i-1])
+
 tp2 = tuple(li)
-for i in tup:
-    if tup[i-1] % 2 == 0 :
-        li.append(tup[i-1])
 print(tp2)
 
 
